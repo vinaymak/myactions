@@ -1,1 +1,18 @@
-git status
+name: First one 
+
+on: 
+
+ workflow_dispatch:
+
+jobs: 
+ Test:
+  runs-on: [ubunutu-latest ]
+  name: testing the github
+ 
+  steps:
+   - name: Checkout git repo
+     uses: actions/checkout@v2
+     id: git_checkout
+     
+   - name: Check git version
+      git version
