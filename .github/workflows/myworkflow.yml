@@ -6,7 +6,7 @@ on:
 
 jobs: 
  Test:
-  runs-on: [self-hosted ]
+  runs-on: [ self-hosted ]
   name: testing the github
  
   steps:
