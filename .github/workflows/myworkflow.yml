@@ -6,7 +6,7 @@ on:
 
 jobs: 
  Test:
-  runs-on: [ubunutu-latest ]
+  #runs-on: [ubunutu-latest ]
   name: testing the github
  
   steps:
