@@ -15,4 +15,7 @@ jobs:
      id: git_checkout
      
    - name: Check git version
+     run: | 
       git version
+      git branch
+      git branch -a
